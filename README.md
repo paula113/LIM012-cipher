@@ -167,16 +167,36 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+
+'Bienvenido a cifrando'
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+
+El proyecto se basa en codificar oraciones ingresadas por el usuario.
+
 * La imagen final de tu proyecto.
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+    Mis usuarios necesitan registrarse en una bancaria online. Ellos, requieren asignar una password para log in. Los usuarios, buscan  una palabra familiar a ellos para asignarla como password. Pero esta, no cumple con los niveles de seguridad requeridos por el banco.
+    La página Web cifrado, permite al usuario cifrar palabras o descifrarlas. El usuario es requerido de ingresar el texto que desee cifrar y el número de desplazamiento para ejecutar una acción.
+
+    El objetivo de mi usuario es cifrar una palabra facil de recordar para ellos. La cual, cumpla con los niveles de seguridad
+    requeridos.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+
+    La pagina web 'cifrando' busca facilitar a los usuarios cuando quieren cifrar palagras o texto
+
   3. Luego colocarás la foto de tu primer prototipo en papel.
+    <img src = "imagenes/sketch.jpeg">
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  Definir a mi usuario
   5. Imagen del prototipo final.
+    <img src = "imagenes/Screen Shot 2020-02-11 at 12.24.24 pm.png">
 
 #### Visualmente (HTML y CSS)
 
