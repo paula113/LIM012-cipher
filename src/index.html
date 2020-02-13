@@ -6,9 +6,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <header>
+      <h1>Bienvenido a cifrando</h1>
+    </header>
+    <main>
+      <section id = "wrapper">
+        <section id = "inputText">
+          <textarea class = "mensaje" name = "mensaje" placeholder = "Ingresa tu mesaje" required></textarea>
+          <textarea id = "msg" class = "mensaje" name = "msg"></textarea>
+        </section>
+        <section id="moveMeLeft">
+          <section id = "desplazamiento">
+            <label for = "desplazamiento" class = "desplazamientoLabel">Inserta tu numero de desplazamiento</label>
+            <input class = "number" type = "number" name = "number" required>
+          </section>
+          <section id="btn">
+            <button class = "button" type = "button" name = "encriptar">Encriptar</button>
+            <button class = "button" type = "button" name = "desencriptar">Desencriptar</button>
+          </section>
+        </section>
+      </section>
+
+    </main>
+    <footer>
+    </footer>
+    <script src = "index.js" type = "module"></script>
   </body>
 </html>
