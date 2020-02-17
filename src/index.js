@@ -5,36 +5,34 @@ encriptar.addEventListener("click", function E(mensaje, number){
   mensaje = document.getElementById('mensaje').value;
   number = document.getElementById('number').value;
   let msg = (function(str, num) {
-  str = mensaje.toUpperCase();
-  num = number % 26;
-  let retro = 26 - num;
-  let result;
-  for (var i = 0; i < str.length; i++) {
-  let asciiP = str[i].charCodeAt();
-  if (asciiP >= 65 && asciiP <= 90){
-      result += String.fromCharCode(asciiP + num);
-    }else if (asciiP >= 78) {
-      result += String.fromCharCode(asciiP - retro);
+    let result = "";
+    str = mensaje.toUpperCase();
+    num = number;
+    for (var i = 0; i < str.length; i++) {
+      let asciiP = str[i].charCodeAt();
+        let alphaTotal = asciiP - 65 + num;
+        let r = alphaTotal % 26;
+        result += String.fromCharCode( r + 65);
     }
-  }
 
-
-
-    return result;
+  return result;
 
 })();
 
   document.getElementById("msg").innerHTML = msg;
  });
 
-desencriptar.addEventListener("click", function D(){
+desencriptar.addEventListener("click", function D(m, n){
   m = document.getElementById('mensaje').value;
   n = document.getElementById('number').value;
-  let msgD =  (function(m, n) {
-  let result = 'Hello';
-
-
-    return result;
+  let msgD =  (function(msg, numD) {
+    msg = m;
+    numD = n;
+    let solved = '';
+    for (var i = 0; i < m.length; i++) {
+     let reverse = msg[i].charCodeAt();
+    }
+    return solved;
 
 })();
 
