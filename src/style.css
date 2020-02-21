@@ -86,5 +86,6 @@ h1{
 footer{
   text-align: center;
   background-color: #6495ED;
-  opacity: 50%;
+  opacity: 70%;
+  padding: 3%;
 }
