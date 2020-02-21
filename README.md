@@ -68,6 +68,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y
 
 ### UX
 
+
 * [ ] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
 * [ ] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
 * [ ] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
@@ -169,32 +170,29 @@ Debe contener lo siguiente:
 * Un título con el nombre de tu proyecto.
 
 'Bienvenido a cifrando'
-
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-
-El proyecto se basa en codificar oraciones ingresadas por el usuario.
+El objetivo principal del siguiente proyecto se basa en encriptar y desencriptar oraciones ingresadas por el usuario.
 
 * La imagen final de tu proyecto.
-
+<img src = "imagenes/finalProyecto.52.43 am.png">
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
-    Mis usuarios necesitan registrarse en una bancaria online. Ellos, requieren asignar una password para log in. Los usuarios, buscan  una palabra familiar a ellos para asignarla como password. Pero esta, no cumple con los niveles de seguridad requeridos por el banco.
-    La página Web cifrado, permite al usuario cifrar palabras o descifrarlas. El usuario es requerido de ingresar el texto que desee cifrar y el número de desplazamiento para ejecutar una acción.
+    Bienvendo a cifrando esta dirigido a los usuarios que buscan encriptar y/o desencriptar palabras. Un usuario, quiere registrarse en la plataforma digital de su banco. Al registrarse el usuario es requerido de ingresar una contraseña, esta debe cumplir con especificos parametros de seguridad. El usuario se enfrenta a un problema. No se siente seguro si va a recordar su contraseña. Bienvenido a cifrando resolverá su problema encriptando la palabra que ellos puedan recordar fácilmente. los requisitos para lograr el cifrado es ingresar una palabra y asignar un número de desplazamiento, el mismo que luego les ayudará a descifrar la misma palabra.
 
-    El objetivo de mi usuario es cifrar una palabra facil de recordar para ellos. La cual, cumpla con los niveles de seguridad
-    requeridos.
+    En conclusion, el objetivo de mi usuario es cifrar una palabra facil de recordar para ellos. La cual, cumpla con los niveles de seguridad requeridos por su banco.
 
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+  <!-- 2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
 
-    La pagina web 'cifrando' busca facilitar a los usuarios cuando quieren cifrar palagras o texto
+    La pagina web 'cifrando' busca facilitar a los usuarios cuando quieren cifrar palagras o texto -->
 
   3. Luego colocarás la foto de tu primer prototipo en papel.
     <img src = "imagenes/sketch.jpeg">
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   Definir a mi usuario
+
+
   5. Imagen del prototipo final.
     <img src = "imagenes/Screen Shot 2020-02-11 at 12.24.24 pm.png">
 
