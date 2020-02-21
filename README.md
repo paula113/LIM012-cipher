@@ -18,7 +18,7 @@
 
   4. Feedback recibido indicando las mejoras a realizar: para definis mi usuario tuve que ser mas especifica al explicas el problema que mi usuario presencia y como mi pagina iba a resolverlo.
   Primer prototipado:
-  <img src = "imagenes/primerPrototipado.jpg">
+  <img src = "imagenes/primerSketch.jpg">
   Recibi el feedback de mis compañeras que deberia hacer mi interfaz mas simple. me comentaron que deberia poner las textboxes en una sola pagina. Fue asi que modifique mi primer sketch.
   Segundo sketch:
   <img src = "imagenes/sketch.jpeg">
