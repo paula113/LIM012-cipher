@@ -12,10 +12,11 @@
     <main>
       <section id = "wrapper">
         <section id = "inputText">
-          <textarea id = "mensaje" class = "mensaje" name = "mensaje" placeholder = "Ingresa tu mensaje" required></textarea>
+          <textarea id = "mensaje"  class = "mensaje" name = "mensaje" placeholder = "Ingresa tu mensaje" required ></textarea>
+          <!-- pattern = "[A-Z]"-->
           <!-- HIJKLMNOPQRSTUVWXYZABCDEFG -->
           <!-- ABCDEFGHIJKLMNOPQRSTUVWXYZ-->
-          <textarea id = "msg" class = "mensaje" name = "msg"></textarea>
+          <textarea id = "msg" class = "mensaje" name = "msg" disabled="disabled"></textarea>
         </section>
         <section id="moveMeLeft">
           <section id = "desplazamiento">
@@ -31,7 +32,16 @@
       </section>
     </main>
     <footer>
-      <p>© Paula Paredes 2020</p>
+      <ul class = "informacion">
+         <li>Sobre Nosotros</li>
+         <li>contactanos</li>
+         <li>Trabaja con Nosotros</li>
+         <li>Labor Social</li>
+       </ul>
+      <figure class = "github">
+        <!-- <img src="imagenes/github-brands.svg" width:"50%"> -->
+        <figcaption>© Paula Paredes 2020</figcaption>
+      </figure>
     </footer>
     <script src = "index.js" type = "module"></script>
   </body>
