@@ -25,7 +25,7 @@ La temática es libre. Tú debes pensar en qué situaciones de la vida real se n
 
 AQUI IMAGEN DE VISTA ESCRITORIO 
 
-<img src = "imagenes/interactiveFeatures.50.02 am.png">
+<img src = "https://github.com/pierina113/LIM012-cipher/blob/gh-pages/imagenes/Screen Shot 2020-07-20 at 6.35.18 pm.png">
 
 ## 2. Definición del producto
 

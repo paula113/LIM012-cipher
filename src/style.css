@@ -61,6 +61,7 @@ header .title{
   flex-direction: column;
 }
 .button{
+  color: white;
   background-color: #4caf50;
   margin: 1rem;
   width: 50%;
