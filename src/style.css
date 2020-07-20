@@ -1,165 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
 body{
   background-color: #e6e6fa;
-  font-family: "open Sans", Arial;
 }
-header{
+header .title{
+  color: darkolivegreen;
   text-align: center;
-  padding: 9px;
-  /* border: solid 1px green; */
-  font-size: 70%;
-  padding: 2%;
-}
-h1{
-  font-size: xx-large;
-}
- #wrapper{
-  text-align: center;
-  width: 100%;
-  display: inline-flex;
-
-}
-#inputText{
-  display: block;
-  width: 50%;
-  padding: 1em;
-  /* border: solid 1px green; */
+  margin: 1.5rem;
+  font-size: 3rem;
 }
 
-#moveMeLeft{
-  display: block;
-  width: 50%;
-  text-align: center;
-  /* border: solid 1px pink; */
-  padding: 1em;
+
+.wrapperContainer{
+  background-color: darkslateblue; 
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem;  
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 2rem;
+}
+.input{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 .mensaje{
-  border-radius: 10px;
-  border-style: none;
-  display: block;
-  width: 60%;
-  height: 70%;
-  padding: 3%;
-  border: none;
-  height: 80px;
-  /* margin: auto; */
-  margin-bottom: 10%;
-  margin-top: 6%;
-  margin-left: 16%;
-  box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+  margin: 2rem;
+  height: 10rem;
+  width: 100%;
+  border-radius: 1rem;
+  padding: .5rem;
+  box-shadow:  0 15px 25px 
+  rgba(0, 0, 0, 0.2);
 }
-.mensaje:focus {
-  outline:none;
-  /* transition: color 200ms ease-out 50ms; */
+.sub{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
 }
-#mensaje:hover{
-  transform: scale(1.1);
-  transition: 0.5;
+.sub .desplazamientoLabel{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem
 }
 .number{
-  border-radius: 8px;
-  width: 60px;
-  border: none;
-  height: 3em;
-  text-align: center;
-  /* border: solid 1px blue; */
-  display: block;
-  margin: auto;
-  margin-top: 1em;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  margin: 1rem auto;
+  width: 5rem;
+  border-radius: 1rem;
+  padding: .5rem;
 }
-.number:focus {
-  outline:none;
-}
-.number:hover{
-  transform: scale(1.1);
-  transition: 0.5;
-}
-.desplazamientoLabel{
-  margin: auto;
-}
-#desplazamiento{
-  display: block;
-  padding: 2%;
-}
-#btn{
-  /* text-align:center; */
-  padding: 5%;
-  margin-bottom: 20px;
-  margin-top: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
-  display: inline-block;
-  /* border: solid 1px green; */
+.buttonSection{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .button{
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 18px 51px;
-  text-align: center;
-  display: flex;
-  font-size: 16px;
-  margin: 1em;
-  margin-right: 1em;
-  width: 10em;
-  font-size: 100%;
-  height: 3em;
-}
-#encriptar:hover {
-  background-color: #2F6577;
-  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
-  /* outline: none; */
-}
-#encriptar:focus {
-  outline:none;
-}
-#desencriptar:hover {
-  background-color: #2F6577;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-  /* transform: scale(0.5); */
-}
-#desencriptar:focus {
-  outline:none;
-}
-#limpiar:hover {
-  background-color: #2F6577;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-#limpiar:focus {
-  outline:none;
-}
-footer{
-  height: 3em;
-  display: block;
-  /* text-align: left; */
-  color: white;
-  background-color: #6495ED;
-  opacity: 60%;
-  padding: 3%;
-  margin: 0;
-  border: none;
-}
-.github{
- display: inline;
- text-align: center;
- width: 50%;
- color: black;
-}
-.informacion{
-  font-size: x-small;
-  color: white;
-  text-align: left;
-  display: inline;
+  background-color: #4caf50;
+  margin: 1rem;
   width: 50%;
+  height: 4rem;
 }
-figcaption{
-  padding: 6px;
-  margin: 0;
-}
-ul{
-  padding: 0;
-  margin: 0;
-}
-ul li {
-  list-style: none;
+.footer .informacion{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-top: 1rem;
+
+} 
+.footer p{
+margin-top: .5rem;
+  text-align: center;
+} 
+.footer{
+  color: white;
+  background-color: #6495ed;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
 }

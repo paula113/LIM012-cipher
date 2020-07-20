@@ -7,40 +7,34 @@
   </head>
   <body>
     <header>
-      <h1>Bienvenido a cifrando</h1>
+      <h1 class="title">Bienvenido a cifrando</h1>
     </header>
-    <main>
-      <section id = "wrapper">
-        <section id = "inputText">
+      <section id = "wrapper" class="wrapperContainer">
+        <section id = "inputText" class="input">
           <textarea id = "mensaje"  class = "mensaje" name = "mensaje" placeholder = "Ingresa tu mensaje" required pattern = "[A-Z]"></textarea>
           <!-- HIJKLMNOPQRSTUVWXYZABCDEFG -->
           <!-- ABCDEFGHIJKLMNOPQRSTUVWXYZ-->
           <textarea id = "msg" class = "mensaje" name = "msg" disabled="disabled"></textarea>
         </section>
-        <section id="moveMeLeft">
-          <section id = "desplazamiento">
+        <section id="moveMeLeft" class="sub">
+ 
             <label for = "desplazamiento" class = "desplazamientoLabel">Ingresa un numero que recuerdes</label>
             <input id = "number" class = "number" type = "number" name = "number" required>
-          </section>
-          <section id="btn">
+          <section id="btn" class="buttonSection">
             <button id = "encriptar" class = "button" type = "button" name = "encriptar">Encriptar</button>
             <button id = "desencriptar" class = "button" type = "button" name = "desencriptar">Desencriptar</button>
             <button id = "limpiar" class = "button" type = "button" name = "limpiar">Limpiar</button>
           </section>
         </section>
       </section>
-    </main>
-    <footer>
+    <footer class="footer">
       <ul class = "informacion">
          <li>Sobre Nosotros</li>
-         <li>contactanos</li>
+         <li>Contactanos</li>
          <li>Trabaja con Nosotros</li>
          <li>Labor Social</li>
-       </ul>
-      <figure class = "github">
-        <!-- <img src="imagenes/github-brands.svg" width:"50%"> -->
-        <figcaption>© Paula Paredes 2020</figcaption>
-      </figure>
+      </ul>
+        <p>© Paula Paredes 2020</p>
     </footer>
     <script src = "index.js" type = "module"></script>
   </body>
